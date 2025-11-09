@@ -19,7 +19,7 @@
         overflow: hidden;
     }
 
-    /* Sidebar adaptado como header con hamburguesa en mobile */
+    
     .sidebar.box {
         display: flex !important;
         flex-direction: column;
@@ -27,13 +27,13 @@
         color: white;
         padding: 0;
         height: auto;
-        min-height: 60px; /* Solo para el header inicial */
+        min-height: 60px; 
         justify-content: flex-start;
         position: relative;
         z-index: 10;
     }
 
-    /* Header principal con icono, título y hamburguesa */
+    
     .header.box {
         display: flex;
         align-items: center;
@@ -233,7 +233,7 @@
         background-color: #333;
     }
 
-    /* Footer en el main para mobile */
+    
     .mobile-footer {
         background-color: #fcf5f5;
         padding: 15px;
